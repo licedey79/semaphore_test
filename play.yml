@@ -7,5 +7,4 @@
     command: whoami
     register: who
   - name: "Result:"
-   debug:
-     msg: "{{who}}"
+   debug: "msg: '{{who}}'"
